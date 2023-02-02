@@ -96,7 +96,7 @@ class CANalyzer:
 
 if __name__ == '__main__':
     app = CANalyzer()
-    conf = os.path.basename("atom_tmp.cfg")
+    conf = os.path.basename("tmp.cfg")
     app.loadExistedConfiguration(conf)
     app.getCurrentConfigurationPath()
     app.loadNewDBCtoConfiguration()
